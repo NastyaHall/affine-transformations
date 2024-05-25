@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    font-family: 'League Spartan';
+}
+#canvas{
+    border: 1px solid black;
+}
+#canvas-overlay{
+    position: absolute;
+    top: 20px;
+    left: 520px;
+}
+#canvas-overlay-2{
+    position: absolute;
+    top: 355px;
+    left: 1080px;
+}
+.canvas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar{
+    padding: 10px 20px;
+    width: 15%;
+}
+input{
+    font-family: 'League Spartan';
+}
+.input-element{
+    margin: 0px 0 20px 0;
+    color: rgb(95, 97, 113);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-element input{
+    width: 60px;
+    text-align: center;
+    padding: 2px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    color: rgb(45, 45, 54);
+    border-radius: 3px;
+    line-height: 20px;
+}
+.play-stop{
+    font-size: 30px;
+    color: rgb(48, 51, 80);
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+.toolstrip{
+    margin-top: 14px;
+    background-color: rgb(229, 231, 249);
+    width: 100%;
+    display: flex;
+    border-radius: 50px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.bi-arrow-clockwise, .bi-download{
+    font-size: 20px;
+    color: rgb(48, 51, 80);
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.bi-zoom-in, .bi-zoom-out{
+    font-size: 20px;
+    color: rgb(48, 51, 80);
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.hr{
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+}
+.row input{
+    text-align: center;
+    padding: 2px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    color: rgb(45, 45, 54);
+    border-radius: 3px;
+    line-height: 20px;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.logs-p{
+    font-size: 8px;
+}
+#write-to-file-btn{
+    background-color: rgb(110, 127, 171);
+    color: white;
+    font-family: 'League Spartan';
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#write-to-file-btn:hover{
+    background-color: rgb(69, 85, 123);
+    color: white;
+}
